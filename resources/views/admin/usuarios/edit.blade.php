@@ -7,10 +7,10 @@
 <div class="container">
 	<form action="{{ route('admin.usuarios.update', $usuario->id) }}" method="POST">
 		@csrf
-		@method('PUT') fsdf
+		@method('PUT')
 
 		<div class="card mt-3">
-			<div class="card-body">s
+			<div class="card-body">
 				
 				<h4 class="text-muted text-right"><i class="bi bi-pen"></i> Editar Usuário</h4>
 				<div class="row">
